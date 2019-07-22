@@ -1,0 +1,14 @@
+<h1 class="redditChoose">Selected Subreddit: <br> ↓</h1>
+
+<input type="text" class="redditInput" placeholder="Which SubReddit?" [(ngModel)] = "subreddit" value="awww" (keyup.enter) = "getPost(subreddit)"/>
+
+<div class="content" *ngFor= "let p of postsArray">
+    <h1 class="postTitle">
+        {{p.title}} {{p.votes}}
+    </h1>
+    <img class="postImage" src = "{{p.thumbnail}}"/>
+    <a class="postLink" href="{{p.link}}">{{p.link}}</a>
+</div>
+<h1 *ngIf="postsArray.length < 1" class="noResults">
+    No Results for the subreddit {{subreddit}}
+</h1>

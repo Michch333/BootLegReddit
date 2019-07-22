@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RedditCallService } from './reddit-call.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bootlegReddit';
+
+  constructor(private redditCall : RedditCallService){
+
+  }
 }

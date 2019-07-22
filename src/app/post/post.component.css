@@ -1,0 +1,74 @@
+.submitBtn {
+    height: 25px;
+    width: 100px;
+}
+
+.postTitle {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+
+}
+
+.vote {
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.noResults {
+    color: white;
+    text-align: center;
+}
+
+
+.postImage {
+    min-height: 300px;
+    min-width: 300px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.postLink {
+    display: block;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+    width: 800px;
+    border-radius: 10px;
+    background-color: grey;
+    font-style: italic;
+}
+
+.redditChoose {
+    color: white;
+    text-align: center;
+    
+}
+
+.redditInput {
+    height: 30px;
+    width: 40%;
+    border: 1px solid black;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.content {
+    text-align: center;
+    border: 1px solid red;
+    margin-bottom: 40px;
+    background-color: firebrick;
+}
+
+a {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
